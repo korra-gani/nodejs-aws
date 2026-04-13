@@ -5,8 +5,8 @@ const axios = require("axios");
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// 🔥 Paste your API Gateway URL here
-const API_URL = "https://YOUR-API-ID.execute-api.ap-south-1.amazonaws.com/login";
+// ✅ Your API Gateway URL (with route)
+const API_URL = "https://5ydq53t44j.execute-api.ap-southeast-2.amazonaws.com/dev/login";
 
 app.get("/", (req, res) => {
     res.send(`
